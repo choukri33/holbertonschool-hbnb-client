@@ -1,0 +1,99 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  background-color: #f8f8f8;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+header .logo {
+  width: 100px;
+}
+
+header .login-button {
+  float: right;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+main {
+  padding: 20px;
+}
+
+.place-card, .review-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 10px;
+}
+
+.place-image {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.place-image-large {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.details-button, .add-review-button {
+  display: block;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #007BFF;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.details-button:hover, .add-review-button:hover {
+  background-color: #0056b3;
+}
+
+.login-form, .add-review {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.login-form h2, .add-review h2 {
+  text-align: center;
+}
+
+.login-form label, .add-review label {
+  display: block;
+  margin-top: 10px;
+}
+
+.login-form input, .add-review input, .add-review textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.login-form button, .add-review button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.login-form button:hover, .add-review button:hover {
+  background-color: #0056b3;
+}
+
